@@ -1,0 +1,65 @@
+@import 'https://fonts.googleapis.com/css?family=Rock+Salt';
+
+body{
+    width:100vw;
+    height:100vh;
+    background: #232526;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #414345, #232526);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #414345, #232526); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+
+}
+
+  
+
+section{
+    width:80%;
+    margin:0 auto;
+    font-family: "Rock Salt", sans-serif;
+}
+
+ul.polaroid {
+    max-width: 100%;
+    margin: 2em auto;
+}
+ul.polaroid li {
+    list-style: none;
+    max-width: 350px;
+    display: inline-block;
+    background-color: white;
+    background: linear-gradient(110deg, white, oldlace);
+    box-shadow: 4px 4px 15px rgb(14, 13, 13);
+    vertical-align: top;
+    filter: grayscale(100%);
+    
+}
+
+ul.polaroid img {
+    max-width: 90%;
+    height: auto;
+    margin: 5% 5% 0 5%;
+}
+ul.polaroid span {
+    display: inline-block;
+    width: 90%;
+    min-height: 54px;
+    margin: 0 5% 5% 5%;
+    text-align: center;
+}
+
+ul.polaroid li:nth-child(1) {
+    position: relative;
+    transform: rotate(-4deg);
+    transition: all ease 0.6s;
+  }
+  ul.polaroid li:nth-child(2) {
+    position: relative;
+    transform: rotate(-14deg);
+    transition: all ease 0.6s;
+  }
+  
+  ul.polaroid li:hover {
+    transform: scale(1.1) rotate(0deg);
+    z-index: 999;
+    filter:none;
+  }
