@@ -28,15 +28,30 @@ h1{
     text-shadow: 0 1px 0 #f72929, 0 2px 0 #fc1717, 0 3px 0 #faa02a, 0 4px 0 #fc950e, 0 5px 0 #fcf825    , 0 6px 0 #fdf909, 0 7px 0 #63f828, 0 8px 0 #50fc0c, 0 9px 0 #3077fa, 0 10px 0 #0c60fc, 0 0 5px rgba(87, 86, 86, 0.05), 0 -1px 3px rgba(87,86, 86, 0.2), 0 9px 9px rgba(87, 86, 86, 0.3), 0 12px 12px rgba(87, 86, 86, 0.3), 0 15px 15px rgba(87, 86, 86, 0.3); 
 } 
 
+#red{
+    color:#fc1717
+}
+
+#orange{
+    color:#fc950e;
+}
+
+#yellow{
+    color:#fdf909;
+}
+
 
 section{
     font-family: "Rock Salt", sans-serif;
     background-color:lime;
+    border-bottom: 5px solid #0c60fc;
+    border-top: 5px solid #0c60fc;
+    margin:6rem auto;
 }
 
 ul.polaroid {
     max-width: 80%;
-    margin: 6rem auto;
+    margin: auto;
     display: flex;
     justify-content: center;
     align-items: center;
