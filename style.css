@@ -108,6 +108,7 @@ ul.polaroid li:nth-child(3) {
 ul.polaroid li:nth-child(4) {
     position: relative;
     transform: rotate(-18deg);
+    transition: all ease 0.6s;
 }
 
 
