@@ -4,7 +4,7 @@
 ### Challenge 
 
 * Create an image gallery as in the picture below. 
-* On hover images move back to their original position and get their color back
+* On hover images should move back to their original position and get their color back
 
 <img src="./assets/img-gallery.png" alt="img-gallery"> 
 
